@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+    <title>Contacto</title>
+
+  </head>
+<!--Inicia carrusel-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="HGS/1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="HGS/2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="HGS/3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+      
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="filosofia.php">Misión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Comentario.php">Donativos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Localización.html">Localización</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="terminos.php">Apoyos</a>
+          </li>
+          
+          
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+  
+    <section class="form_wrap">
+
+        <section class="contact_info">
+            <section class="info_title">
+              <h2>Información<br>del contacto</h2>
+              <div class="carousel-item active">
+                <img src="HGS/cet.jpg" class="d-block w-100" alt="...">
+              </div>
+               
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span>borjamcb@yahoo.com.mx</p>
+                <p><span class="fa fa-phone"></span>+(52) 447-108-12-97</p>
+
+            </section>
+        </section>
+    
+    
+        <div class="user_info">
+   <form action="mail.php" method="POST" class="form_contact" >
+    <table>
+      
+        <tr>
+           
+            <td> <input type="text" placeholder="Nombre" name="nombre" required> </td>
+        </tr>
+        <tr>
+         
+            <td> <input type="phone" placeholder="Teléfono" name="telefono" required> </td>
+        </tr>
+        <tr>
+           
+            <td> <input type="text" placeholder="Correo electrónico" name="correo" required> </td>
+        </tr>
+        <tr>
+          
+            <td> <input type="text" placeholder="Escribe tu mensaje" name="mensaje" required> </td>
+        </tr>
+        <tr>
+            
+            
+           <td>
+                <select name="tpmensaje" required>
+                    <option selected hidden value="">Tipo de mensaje</option>
+                    <option value="">Agradecimiento</option>
+                    <option value="">Aportación</option>
+                    <option value="">Queja</option>
+                    <option value="">Mensaje</option>
+                </select>
+            </td>
+        </tr>
+        <html>
+  <head>
+
+
+
+        <tr>
+            <td>
+                <input type="submit" value="ENVIAR" name="enviar" />
+            </td>
+        </tr>
+     
+    </div>
+    </table>
+
+   </form>
+  
+    
+</body>
+
+</html>
